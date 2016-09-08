@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">度娘广告</string>
+    
+    <string name="btn_banner_java">banner_java</string>
+    <string name="btn_banner_xml">banner_xml</string>
+    <string name="btn_interstitial">插页</string>
+
+</resources>

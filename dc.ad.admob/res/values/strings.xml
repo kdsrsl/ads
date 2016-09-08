@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">广告</string>
+    <string name="btn_banner_java">banner_java</string>
+    <string name="btn_banner_xml">banner_xml</string>
+    <string name="btn_interstitial">插页</string>
+    
+    <string name="txt_ad1">化妆品</string>
+    <string name="txt_ad2">培训</string>
+    
+    <string name="ad_id">a1532d52a4e024b</string>
+</resources>

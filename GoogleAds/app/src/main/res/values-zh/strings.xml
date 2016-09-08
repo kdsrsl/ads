@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">芙蓉出水</string>
+
+    <string name="btn_admob_banner">Admob 横幅</string>
+    <string name="btn_admob_interstitial">Admob 插页式</string>
+    <string name="btn_admob_inapppurchase">Admob 插页式奖励</string>
+    <string name="btn_admob_native_express">Admob 原生 大中小</string>
+    <string name="btn_admob_native_advance">Admob advance</string>
+    <string name="btn_admob_rewarded_video">Admob Rewarded Video</string>
+    <string name="btn_doubleclick_banner">Doubleclick Banner</string>
+    <string name="btn_doubleclick_interstitial">Doubleclick 插页式</string>
+    <string name="btn_doubleclick_native">Doubleclick 原生</string>
+
+</resources>

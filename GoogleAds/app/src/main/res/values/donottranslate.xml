@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad_unit_id_banner">ca-app-pub-5714897956607268/3079477238</string>
+    <string name="ad_unit_id_interstitial">ca-app-pub-5714897956607268/2939876435</string>
+    <string name="ad_unit_id_in_app_purchase">ca-app-pub-5714897956607268/8846809236</string>
+    <string name="ad_unit_id_native_small">ca-app-pub-5714897956607268/8977906838</string>
+    <string name="ad_unit_id_native_medium">ca-app-pub-5714897956607268/1454640037</string>
+    <string name="ad_unit_id_native_large">ca-app-pub-5714897956607268/2931373238</string>
+    <string name="ad_unit_id_native_custom">ca-app-pub-5714897956607268/7104220837</string>
+
+    <!-- dft的key全都不显示，为什么。。。。 -->
+    <string name="dfp_unit_id_banner">/145596127/ads_banner</string>
+    <string name="dfp_unit_id_content">/145596127/ads_固定</string>
+    <string name="dfp_unit_id_insterstitily">/145596127/ads_insterstitily</string>
+</resources>

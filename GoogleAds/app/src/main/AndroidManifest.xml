@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dc.android.ads">
+
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name=".VsfApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.AdmobBannerActivity" />
+        <activity android:name=".activity.AdmobInterstitialActivity" />
+        <activity android:name=".activity.AdmobInAppPurchaseActivity" />
+        <activity android:name=".activity.AdmobNativeExpressActivity" />
+        <activity android:name=".activity.AdmobNativeAdvancedActivity" />
+        <activity android:name=".activity.AdmobRewardedVideoActivity" />
+        <activity android:name=".activity.DoubleclickBannerActivity" />
+        <activity android:name=".activity.DoubleclickInterstitialActivity" />
+        <activity android:name=".activity.DoubleclickNativeActivity" />
+
+        <!-- Admob Banner布局 -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- Admob InAppPurchase 布局 -->
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+    </application>
+
+</manifest>

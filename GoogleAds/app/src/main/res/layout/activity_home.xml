@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admob_bannner"
+            android:text="@string/btn_admob_banner"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admob_intersititial"
+            android:text="@string/btn_admob_interstitial"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admob_inapppurchase"
+            android:text="@string/btn_admob_inapppurchase"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admob_native_express"
+            android:text="@string/btn_admob_native_express"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admob_native_advance"
+            android:text="@string/btn_admob_native_advance"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_admob_rewarded_video"
+            android:text="@string/btn_admob_rewarded_video"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_doubleclick_banner"
+            android:text="@string/btn_doubleclick_banner"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_doubleclick_interstitial"
+            android:text="@string/btn_doubleclick_interstitial"
+            android:onClick="click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_doubleclick_native"
+            android:text="@string/btn_doubleclick_native"
+            android:onClick="click"/>
+
+    </LinearLayout>
+
+</ScrollView>

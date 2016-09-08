@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GoogleAds</string>
+
+    <string name="btn_admob_banner">Admob Banner</string>
+    <string name="btn_admob_interstitial">Admob Interstitial</string>
+    <string name="btn_admob_inapppurchase">Admob InAppPurchase</string>
+    <string name="btn_admob_native_express">Admob Native Express</string>
+    <string name="btn_admob_native_advance">Admob advance</string>
+    <string name="btn_admob_rewarded_video">Admob Rewarded Video</string>
+    <string name="btn_doubleclick_banner">Doubleclick Banner</string>
+    <string name="btn_doubleclick_interstitial">Doubleclick Interstitial</string>
+    <string name="btn_doubleclick_native">Doubleclick Native</string>
+
+</resources>
